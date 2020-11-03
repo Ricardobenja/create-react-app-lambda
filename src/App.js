@@ -1,5 +1,4 @@
 import React, { Component } from "react"
-import logo from "./logo.svg"
 import "./App.css"
 
 class LambdaDemo extends Component {
@@ -34,15 +33,15 @@ class LambdaDemo extends Component {
 class App extends Component {
   render() {
     return (
-      <div className="App">
-        <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <p>
-            Edit <code>src/App.js</code> and save to reload.
-          </p>
-          <LambdaDemo />
-        </header>
-      </div>
+      <nav class="zone pink sticky">
+        <ul class="main-nav">
+            <li><a href="">Vuelos</a></li>
+            <li><a href="">Cruceros</a></li>
+            <li><a href="">Hoteles</a></li>
+            <li><a href="">Ofertas</a></li>
+            <li class="push"><a href="">Quienes somos</a></li>
+        </ul>
+    </nav>
     )
   }
 }
